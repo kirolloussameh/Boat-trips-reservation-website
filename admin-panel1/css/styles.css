@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* login */
+.login .card .card-header{
+  font-size: 25px;
+  font-size: bold;
+}
+/* login */
+/* navbar */
+.navbar .navbar-brand{
+  font-size: 30px;
+}
+
+.navbar img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.navbar .account h6{
+  color: white;
+  text-decoration: none;
+}
+/* end navbar */
+/* packages */
+section .cards-packages .card .list-group-item a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+section .cards-packages .card .list-group-item a:hover{
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+/*  packages */
+
+/* tables */
+.table .btns{
+  justify-content: space-around;
+}
+.table-cont{
+  height: 500px;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+.table .thead-dark{
+  position: sticky;
+  top: 0px;
+ 
+}
+/* popup message */
+#popupWrapper {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 9999;
+  overflow: auto;
+}
+
+#popupContent {
+  background-color: #fff;
+  max-width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#popupcontent .close{
+  display: flex;
+  justify-content: space-around;
+}
+/* end popup message */
+/* end tables */
+form{
+  margin-top: 120px;
+}
+form .form-group label{
+  font-size: 20px;
+  font-weight: bold;
+}
+form .form-group input{
+  margin-top: 20px;
+  border: black 1px solid;
+}
+form .form-group select{
+  margin-top: 20px;
+  border: black 1px solid;
+}
+form .form-group{
+  margin-top: 23px;
+}
+form .btn{
+  text-align: right;
+}
+/* footer */
+.footer .media .btn{
+  margin-top: 5px;
+}
+.footer .media .btn a{
+  text-decoration: none;
+  color: white;
+}
+.footer .powered a {
+  text-decoration: none;
+  color: orangered;
+  font-weight: bold;
+  font-size: large;
+}
+/* end footer */
